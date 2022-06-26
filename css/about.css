@@ -1,0 +1,130 @@
+h1 {
+    font-size: 6.4rem;
+    font-weight: bold;
+    color: black;
+}
+
+h2 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+
+.message,
+.philosophy,
+.outline {
+    margin: 0 auto 88px;
+    width: 70%;
+}
+
+/* message */
+
+.section-title {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    border-bottom: 4px solid #D8812F;
+    margin-bottom: 8px;
+}
+
+.section-title p {
+    font-weight: bold;
+}
+
+.massage-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5%;
+}
+
+.massage-content .message-img {
+    width: 40%;
+}
+
+.massage-content img {
+    width: 100%;
+}
+
+.massage-content .message-text {
+    width: 60%;
+}
+
+.message-text h3,
+.message-text p {
+    margin-bottom: 5%;
+}
+
+.message-text p:last-child {
+    text-align: right;
+}
+
+/* philosophy */
+
+.philosophy-text h3 {
+    border: 2px solid #333;
+    padding: 32px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+/* outline */
+
+dl {
+    display: flex;
+    border-bottom: 1px solid #707070;
+    padding: 16px;
+}
+
+dl dt {
+    width: 20%;
+    font-size: 1.6rem;
+}
+
+dl dd {
+    width: 80%;
+    font-size: 1.6rem;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .message,
+    .philosophy,
+    .outline {
+        width: 90%;
+    }
+
+    dl {
+        display: block;
+    }
+
+    dl dt {
+        margin-bottom: 8px;
+        width: 100%;
+    }
+
+    dl dd {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .massage-content {
+        display: block;
+    }
+
+    .massage-content .message-img,
+    .massage-content .message-text {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .massage-content .message-img {
+        margin-bottom: 16px;
+    }
+
+}
