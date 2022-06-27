@@ -3,8 +3,15 @@ $(function () {
         $(this).toggleClass('active');
         $("#h-nav").toggleClass('panelactive');
     });
-    $('.works-slick-list').slick({
-        slidesToShow: 4,
-        slidesToScroll: 2,
+    $('.show').modaal({
+        fullscreen: true,
+        hide_close: false,
+        background: '#000',
+        overlay_opacity: 0.8,
+        overlay_close: true,
+        animation_speed: 300,
+        background_scroll: false,
+        width: 400,
+        height: 300,
     });
 });

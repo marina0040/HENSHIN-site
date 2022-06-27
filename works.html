@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/destyle.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/works.css">
+    <!-- modaal css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modaal@0.4.4/dist/css/modaal.min.css">
+
 </head>
 
 <body>
@@ -68,13 +71,16 @@
             <div class="works-content">
                 <div class="works-list">
                     <div class="works-item">
-                        <a href="#">
+                        <a href="#modal-link" class="show">
                             <div class="work-img">
                                 <img src="./assets/about-message-img.jpg">
                             </div>
                             <p>marteen 新宿ビル店</p>
                             <p>東京都新宿区</p>
                         </a>
+                        <div id="modal-link">
+                            <p>エラーが発生しました</p>
+                        </div>
                     </div>
                     <div class="works-item">
                         <a href="#">
@@ -190,11 +196,12 @@
         </a>
         <small>©2022 HENSHIN All rights Reserved.</small>
     </footer>
-</body>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script type="text/javascript" src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/modaal@0.4.4/dist/js/modaal.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
 
 </html>

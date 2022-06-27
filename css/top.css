@@ -214,13 +214,11 @@ section {
 }
 
 .works-slick-list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
+    margin: 48px 24px 0;
 }
 
 .works-item {
-    margin-top: 48px;
+    margin: 0 8px;
 }
 
 .work-img {
@@ -290,17 +288,33 @@ section {
         margin: 0;
     }
 
+    .main-title {
+        margin-bottom: 0;
+    }
+
     .section-title {
         font-size: 4.8rem;
     }
-
 
     .about-text {
         width: 90%;
     }
 
+    .section-btn a {
+        width: 100%;
+        max-width: 350px;
+    }
+
     .service:after {
         height: 60%;
+    }
+
+    .service-heading-area {
+        display: block;
+    }
+
+    .service-text {
+        width: 90%;
     }
 
     .service-contents {
@@ -329,6 +343,10 @@ section {
 
     .works-slick-list {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .news-list {
+        width: 100%;
     }
 
 }
