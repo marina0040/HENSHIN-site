@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta cherset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HENSHIN コーポレートサイト</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/destyle.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <header class="inview fadeIn">
+        <div class="header-contents">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./assets/henshin-logo.png" alt="HENSHIN">
+                </a>
+            </div>
+            <nav class="header-nav">
+                <div class="pc-nav">
+                    <ul class="header-menu">
+                        <li class="menu-item"><a href="./about.html">会社情報</a></li>
+                        <li class="menu-item"><a href="./service.html">事業内容</a></li>
+                        <li class="menu-item"><a href="./works.html">実績紹介</a></li>
+                        <li class="menu-item"><a href="./news.html">お知らせ</a></li>
+                        <li class="menu-item header-contact-btn"><a href="./contact.html">お問い合わせ</a></li>
+                    </ul>
+                </div>
+                <div class="tb-sp-nav">
+                    <div class="open">
+                        <div class="openbtn1"><span></span><span></span><span></span></div>
+                    </div>
+                    <div id="h-nav">
+                        <ul class="tb-sp-h-menu">
+                            <li class="menu-item"><a href="./index.html">TOP</a></li>
+                            <li class="menu-item"><a href="./about.html">会社情報</a></li>
+                            <li class="menu-item"><a href="./service.html">事業内容</a></li>
+                            <li class="menu-item"><a href="./works.html">実績紹介</a></li>
+                            <li class="menu-item"><a href="./news.html">お知らせ</a></li>
+                            <li class="menu-item header-contact-btn"><a href="./contact.html">お問い合わせ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-title inview fadeIn">
+            <div class="about-title">
+                <h1>CONTACT</h1>
+                <p>お問い合わせ</p>
+            </div>
+            <div class="main-img">
+                <img src="./assets/about-title-img.jpg">
+            </div>
+        </div>
+
+        <section class="contact-form inview fadeIn">
+            <form class="validationForm" method="post">
+                <p>下記に必要事項を入力し、「送信する」ボタンを押してください。<br>
+                    お送りいただきましたお問い合わせには、折り返し返答させていただきます。</p>
+                <dl>
+                    <dt class="contact-item">お名前<span>必須</span></dt>
+                    <dd>
+                        <input class="contact-body required" type="text" name="your-name" placeholder="変身　太郎">
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="contact-item">会社名</dt>
+                    <dd>
+                        <input class="contact-body" type="text" name="company-name" placeholder="変身会社">
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="contact-item">メールアドレス<span>必須</span></dt>
+                    <dd>
+                        <input class="contact-body required email" type="email" name="email" placeholder="abcd@henshin.co.jp">
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="contact-item">電話番号</dt>
+                    <dd>
+                        <input class="contact-body tel" type="tel" name="tel-number" placeholder="0908886666">
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="contact-item">住所</dt>
+                    <dd>
+                        <input class="contact-body" type="text" name="address" placeholder="東京都渋谷区5-3-2">
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="contact-item">お問い合わせ種別<span>必須</span></dt>
+                    <dd>
+                        <select class="contact-body required" name="type">
+                            <option value="">選択してください</option>
+                            <option value="新規店舗の出店">新規店舗の出店</option>
+                            <option value="イベント出店">イベント出店</option>
+                            <option value="改装について">改装について</option>
+                            <option value="その他">その他</option>
+                        </select>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="contact-item">お問い合わせ内容<span>必須</span></dt>
+                    <dd>
+                        <textarea class="contact-body required" name="message" cols="30" rows="10" placeholder="例））カフェを開業したい。段取りや、費用やスケジュールについて相談したい。"></textarea>
+                    </dd>
+                </dl>
+                <div>
+                    <input class="submit-btn" type="submit" value="送信する"></input>
+                </div>
+            </form>
+        </section>
+
+        <section class="contact">
+            <div>
+                <div class="contact-text">
+                    <h4>CONTACT</h4>
+                    <p>お問合せはこちらのフォームよりお送り下さい</p>
+                </div>
+                <div class="contact-btn">
+                    <a href="./contact.html">
+                        お問い合わせ
+                    </a>
+                </div>
+                <div class="faq-btn">
+                    <a href="#">
+                        よくある質問
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-contents">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./assets/henshin-logo.png" alt="HENSHIN">
+                </a>
+            </div>
+            <nav class="footer-nav">
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="./about.html">会社情報</a></li>
+                    <li class="footer-menu-item"><a href="./service.html">事業内容</a></li>
+                    <li class="footer-menu-item"><a href="./works.html">実績紹介</a></li>
+                    <li class="footer-menu-item"><a href="./news.html">お知らせ</a></li>
+                </ul>
+            </nav>
+        </div>
+        <a href="#" class="return-top">
+        </a>
+        <small>©2022 HENSHIN All rights Reserved.</small>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

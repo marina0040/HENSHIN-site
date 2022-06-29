@@ -1,6 +1,6 @@
 h1 {
     position: absolute;
-    font-size: clamp(20px, 7vw, 110px);
+    font-size: clamp(28px, 7vw, 110px);
     font-weight: bold;
     color: #D8812F;
     margin: -1.5em 3% 0;
@@ -30,7 +30,7 @@ h1 span {
 /* about */
 
 section {
-    margin-top: 120px;
+    margin-top: 10%;
     line-height: 1.5;
 }
 
@@ -133,7 +133,7 @@ section {
 }
 
 .service-wrapper {
-    margin: 272px 3% 0 3%;
+    margin: 18% 3% 0 3%;
 }
 
 
@@ -279,6 +279,12 @@ section {
     color: black !important;
 }
 
+@media screen and (max-width: 991px) {
+    .service-wrapper {
+        margin: 25% 3% 0 3%;
+    }
+}
+
 @media screen and (max-width: 767px) {
     h1 {
         top: 110px;
@@ -290,6 +296,7 @@ section {
 
     .main-title {
         margin-bottom: 0;
+        width: 100%;
     }
 
     .section-title {
@@ -302,11 +309,15 @@ section {
 
     .section-btn a {
         width: 100%;
-        max-width: 350px;
+        max-width: 300px;
     }
 
     .service:after {
         height: 60%;
+    }
+
+    .service-wrapper {
+        margin: 180px 3% 0 3%;
     }
 
     .service-heading-area {
@@ -315,6 +326,7 @@ section {
 
     .service-text {
         width: 90%;
+        margin-top: 48px;
     }
 
     .service-contents {

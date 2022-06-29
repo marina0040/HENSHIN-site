@@ -1,0 +1,125 @@
+h1 {
+    font-size: 6.4rem;
+    font-weight: bold;
+    color: black;
+}
+
+h2 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.contact-form {
+    margin: 0 auto 88px;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* contant */
+
+form p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+dl {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 16px;
+}
+
+dt {
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 30%;
+}
+
+dt span {
+    color: white;
+    font-size: 1.4rem;
+    margin-left: 8px;
+    font-weight: 400;
+    padding: 4px;
+    background-color: #D8812F;
+    border-radius: 5px;
+}
+
+dd {
+    font-size: 1.4rem;
+    width: 70%;
+}
+
+input ,select ,textarea {
+    background-color: #ededed;
+    display: inline-block;
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+select {
+    -moz-appearance: menulist;
+    -webkit-appearance: menulist;
+  }
+
+  select::-ms-expand {
+    display: block;
+}
+
+.submit-btn {
+    background-color: #D8812F;
+    color: white;
+    width: 30%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+
+form div {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.error {
+    width : 100%;
+    padding: 0;
+    display: inline-block;
+    font-size: 90%;
+    color: red;
+    box-sizing: border-box;
+  }
+  
+
+@media screen and (max-width: 991px) {
+    
+}
+
+@media screen and (max-width: 767px) {
+    .contact-form {
+        width: 90%;
+    }
+
+    dl {
+        display: block;
+    }
+
+    dt {
+        width: 100%;
+        margin: 0 auto 16px;
+    }
+
+    dd {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .submit-btn {
+        width: 50%;
+    }
+
+}
