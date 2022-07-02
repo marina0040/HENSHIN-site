@@ -9,6 +9,10 @@ h2 {
     font-weight: bold;
 }
 
+.main-title img {
+    object-position: 80% 80%;
+}
+
 /* service */
 
 .service {
@@ -129,10 +133,14 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
+    h1 {
+        font-size: 4.8rem;
+    }
+
     .service {
         width: 90%;
     }
-
+    
     .section-btn a {
         width: 100%;
         max-width: 350px;
@@ -141,6 +149,10 @@ h2 {
 }
 
 @media screen and (max-width: 991px) {
+    .service-contents {
+        width: 80%;
+    }
+
     .service-content {
         display: block;
     }

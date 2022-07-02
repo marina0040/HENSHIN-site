@@ -9,6 +9,9 @@ h2 {
     font-weight: bold;
 }
 
+.main-title img {
+    object-position: 0 15%;
+}
 
 .message,
 .philosophy,
@@ -90,7 +93,10 @@ dl dd {
 
 
 @media screen and (max-width: 767px) {
-
+    h1 {
+        font-size: 4.8rem;
+    } 
+    
     .message,
     .philosophy,
     .outline {

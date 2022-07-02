@@ -9,6 +9,16 @@ h2 {
     font-weight: bold;
 }
 
+.main-title {
+    margin-top: 40px;
+}
+
+.about-title {
+    position: static;
+    padding: 0;
+    text-align: center;
+}
+
 .contact-form {
     margin: 0 auto 88px;
     width: 80%;
@@ -100,6 +110,10 @@ form div {
 }
 
 @media screen and (max-width: 767px) {
+    h1 {
+        font-size: 4.8rem;
+    }
+    
     .contact-form {
         width: 90%;
     }

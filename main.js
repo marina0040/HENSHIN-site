@@ -11,6 +11,29 @@ $(function () {
           }
         });
       });
+
+      $('.works-slick-list').slick({
+        slidesToShow: 4,
+        slidesToScroll: 2,
+        responsive: [
+            {
+                breakpoint: 993,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
+    });
+
+      
 });
 
 document.addEventListener('DOMContentLoaded', () => {
